@@ -3,7 +3,7 @@ function setup() {
   
 }
 
-let down=0
+let down=0 //down =0 becuase that point will not change 
 function draw() {
   background(255);
   stroke ("white");
@@ -18,7 +18,7 @@ function draw() {
   
   
   
-  fill ("BLACK");
+  fill ("BLACK"); //These will make up the E for my initials. I am keeping the size the same while changing the x and y to create each row to fill in the e
   square(0,down,80);
   square (80,down,80);
   square (160,down,80);
@@ -40,7 +40,7 @@ function draw() {
 }
 
 function drawRow(down) { 
-  fill ('red')
+  fill ('red') //the background of the drawing
   square(0,down,80);
   square (80,down,80);
   square (160,down,80);
